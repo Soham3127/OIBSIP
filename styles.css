@@ -1,0 +1,31 @@
+/* Basic reset and global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.main-section, .secondary-section {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
